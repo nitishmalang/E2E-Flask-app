@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "start": "node app.js"
   },
-  "author": "Nitish Malang",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
