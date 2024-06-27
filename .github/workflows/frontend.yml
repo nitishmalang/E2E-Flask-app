@@ -22,4 +22,4 @@ jobs:
     - name: Lint the frontend
       run: |
         cd frontend
-        npm run lint
+        npx eslint .
