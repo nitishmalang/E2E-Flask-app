@@ -19,6 +19,11 @@ jobs:
         cd frontend
         npm install
 
+    - name: Fix ESLint permissions
+      run: |
+        cd frontend
+        chmod +x node_modules/.bin/eslint
+
     - name: Lint the frontend
       run: |
         cd frontend
